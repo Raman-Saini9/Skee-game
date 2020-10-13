@@ -9,7 +9,7 @@ apps = { 'spotify':'C:\\Users\\user\\AppData\\Roaming\\Spotify\\Spotify.exe',
 		'sublime':"C:\\Program Files\\Sublime Text 3\\sublime_text.exe",
 		'code': "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
 		'discord':"C:\\Users\\user\\AppData\\Local\\Discord\\Update.exe --processStart Discord.exe",	
-		'zoom':"C:\\Users\\user\\AppData\\Roaming\\Zoom\bin\\Zoom.exe",
+		'zoom':"C:\\Users\\user\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
 		'chrome':"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
 }
 engine = pyttsx3.init('sapi5')
