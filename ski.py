@@ -3,17 +3,16 @@ import pygame
 pygame.init()
 screen = pygame.display.set_mode((600,700))
 pygame.display.set_caption("Snow Rider")
-
 #Loading necessary images
-background_1 = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\bg_1.png")
-background_2 = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\bg_2.png")
-snow_1 = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\snow1.png")
-snow_2 = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\snow2.png")
-filler_snow = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\fill_snow.png")
-moon = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\moon.png")
-player_move = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\player_move.png")
-player_jump = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\player_jump.png")
-obstacle = pygame.image.load("C:\\Users\\user\\Desktop\\Desktop\\Python\\cs_project\\resource\\stone.png")
+background_1 = pygame.image.load("resources\\bg_1.png")
+background_2 = pygame.image.load("resources\\bg_2.png")
+snow_1 = pygame.image.load("resources\\snow1.png")
+snow_2 = pygame.image.load("resources\\snow2.png")
+filler_snow = pygame.image.load("resources\\fill_snow.png")
+moon = pygame.image.load("resources\\moon.png")
+player_move = pygame.image.load("resources\\player_move.png")
+player_jump = pygame.image.load("resources\\player_jump.png")
+obstacle = pygame.image.load("resources\\stone.png")
 
 
 pygame.display.set_icon(player_jump)
@@ -160,3 +159,4 @@ while running:
     score()
     
     pygame.display.update()
+
